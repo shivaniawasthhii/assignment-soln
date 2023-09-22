@@ -1,0 +1,26 @@
+ Arrays->
+   cities-  names of cities son traveled 
+   availableTickets-available train tickets ,"start city - end city
+
+defined a function 
+findTravelRute that will find the travel route starting from Kiev
+then initialized an array route with 'Kiev' as the starting point
+
+started while loop that continues until
+length of the route array == number of cities son visited .
+
+then will get the last city in the route array
+which is the current city the boy are in
+
+then will call the findNextCity function to find the next city based
+on the available train tickets.
+
+then will check if nextCity exists ,If nextCity exists
+then push it into the route array.
+Once the while loop will complete, will return the route array
+
+In each iteration, the code identifies the current city, 
+then uses the findNextCity function to determine the 
+next city based on available train tickets.
+ If a next city exists, it's added to the route array.
+Once the loop completes, the route array containing the travel route is returned.
